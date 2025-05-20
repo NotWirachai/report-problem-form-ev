@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const MediaModel = require('../repositories/mediaModel');
+const MediaModel = require('../repositories/media');
 const MediaDTO = require('../models/mediaDTO');
 
 class MediaController {

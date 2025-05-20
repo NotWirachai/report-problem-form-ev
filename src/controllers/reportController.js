@@ -1,4 +1,4 @@
-const Report = require('../repositories/reportModel');
+const Report = require('../repositories/report');
 const ReportDTO = require('../models/reportDTO');
 
 exports.getReports = async (req, res) => {
